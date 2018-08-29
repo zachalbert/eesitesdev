@@ -1,0 +1,46 @@
+{
+  "name": "awps",
+  "version": "3.0.0",
+  "description": "Alecaddd WordPress Starter Theme for savvy developers",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "axios": "^0.18",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap": "~3.3.7",
+    "browser-sync": "^2.24.7",
+    "browser-sync-webpack-plugin": "^2.0.1",
+    "cross-env": "^5.1",
+    "jquery": "^3.3.1",
+    "laravel-mix": "^2.1.14",
+    "lodash": "^4.17.4",
+    "popper.js": "^1.12",
+    "tailwindcss": "^0.5.2",
+    "vue": "^2.5.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alecaddd/awps.git"
+  },
+  "keywords": [
+    "wordpress",
+    "theme",
+    "starter"
+  ],
+  "author": "Alessandro Castellani <me@alecaddd.com> (http://alecaddd.com)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Alecaddd/awps/issues"
+  },
+  "homepage": "https://github.com/Alecaddd/awps#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1",
+    "slick-carousel": "^1.8.1"
+  }
+}

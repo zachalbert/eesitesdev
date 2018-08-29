@@ -1,0 +1,265 @@
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///// TYPEFACES ///////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* Titles & Headers */
+
+h1, h2, h3, h4, h5, h6
+{ font-family: 'Quicksand', sans-serif; }
+
+
+/* Regular Text */
+
+body, .links-column h2, h4 a.button, input.pay-button, .title-divider span
+{ font-family: 'Quicksand', sans-serif; }
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///// WEBSITE BACKGROUND //////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* Page Color & Texture */
+
+body
+{ background-color: #009bc6; }
+
+
+/* Free background patterns provided by subtlepatterns.com */
+
+/* Title Color */
+
+h1
+{ color: #f7f1ff; }
+
+
+/* Regular Text Color */
+
+body, .color-text, .footer > a.color-text, .info-container > .image-title, .info-container > .image-details, .title-divider, i.fa.fa-search
+{ color: #f7f1ff; }
+
+/* Link Colors */
+
+a, a:link, a:visited, .link-color-1, .navbar-default .navbar-toggle
+{ color: #ffffff; }
+
+a:hover, a:active, .link-color-2, .navbar-default .navbar-toggle:hover
+{ color: #a6c6ff; }
+
+
+/* Borders */
+
+.top-block
+{ border-bottom-color: #ffffff; }
+
+.footer-block
+{ border-top-color: #ffffff; }
+
+.title-divider:before, .title-divider:after
+{ box-shadow: 0px 1px #ffffff; }
+
+
+.promo-button, .form-control, .form-control:focus,
+.btn-default, .btn-default:hover, .btn-default:focus, .btn-default:active,
+.btn-default.active:focus, .btn-default.active:hover, .btn-default.focus:active,
+.btn-default:active:focus, .btn-default:active:hover,
+.open>.dropdown-toggle.btn-default.focus,
+.open>.dropdown-toggle.btn-default:focus,
+.open>.dropdown-toggle.btn-default:hover
+{ border-color: #f7f1ff; }
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///// WEBSITE FOREGROUND //////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* Foreground Color*/
+
+.box, .dropdown-menu, .error-message, .success-message, .title-divider span
+{ background-color: #ffffff; }
+
+/* Foreground Header & Subheader Color */
+
+.box h1, .box h2, .box h3, .box h4, .box h5, .box h6
+{ color: #00224a; }
+
+/* Foreground Regular Text Color */
+
+.box, .box-alert, .title-divider span, .carousel-indicators li, a.carousel-arrow > i, .dropdown-menu > li > a, .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:active
+{ color: #00224a; }
+
+.carousel-indicators li
+{ border-color: #00224a; }
+
+.carousel-indicators .active
+{ background-color: #00224a; }
+
+
+/* Foreground Links & Button Colors */
+
+
+.box a, .box a:link, .box a:visited, .box .link-color-1, .box .dropdown-menu > li > a
+{ color: #b8006a; }
+
+.box a:hover, .box a:active, .box .link-color-2, .box .dropdown-menu > li > a:hover, .box .dropdown-menu > li > a:focus
+{ color: #730041; } /* This should become the new hover_foreground_link_color */
+
+.pay-button, a.pay-button, .submit-button, a.pay-button.checkout
+{
+background-color: #b8006a;
+color: #ffffff;
+}
+
+.pay-button:hover, a.pay-button:hover, .submit-button:hover
+{
+background-color: #730041;
+color: #ffffff;
+}
+
+.box .button
+{ color: #b8006a; }
+
+.box .button:hover
+{ color: #b8006a; }
+
+
+/* Foreground Dividers */
+
+.divider
+{ border-color: #e3e3e3; }
+
+.dropdown-menu > li.divider
+{ background-color: #e3e3e3; }
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///// PROMO BAR ///////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* Bar Color */
+
+.promo-bar
+{ background-color: #00224a; }
+
+
+/* Promo Bar Text Color */
+
+.promo-bar p, .error-promo, .warning-promo
+{ color: #ffffff; }
+
+
+/* Promo Bar Button & Link Colors */
+
+.promo-button
+{
+background-color: #006a9e;
+color: #ffffff;
+}
+
+.promo-button:hover
+{
+background-color: #003474;
+color: #ffffff;
+}
+
+.promo-bar a
+{ color: #006a9e; }
+
+.promo-bar a:hover
+{
+color: #003474;
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///// MISCELLANEOUS ///////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* Input Text Color */
+
+.form-control
+{ color: #00224a; }
+
+/* Error & Success Messages */
+
+.box-alert
+{background: repeating-linear-gradient(-45deg, #b8006a, #b8006a 1rem, #ffffff 1rem, #ffffff 2rem); }
+
+.thumb-shadow-4pm-deep
+{
+  	-webkit-box-shadow:
+		1px 1px 1px rgba(0, 0, 0, .16),
+		2px 1px 2px rgba(0, 0, 0, .14),
+		4px 2px 3px rgba(0, 0, 0, .12),
+		8px 4px 4px rgba(0, 0, 0, .09),
+		12px 7px 5px rgba(0, 0, 0, .05);
+	-moz-box-shadow:
+		1px 1px 1px rgba(0, 0, 0, .16),
+		2px 1px 2px rgba(0, 0, 0, .14),
+		4px 2px 3px rgba(0, 0, 0, .12),
+		8px 4px 4px rgba(0, 0, 0, .09),
+		12px 7px 5px rgba(0, 0, 0, .05);
+	box-shadow:
+		1px 1px 1px rgba(0, 0, 0, .16),
+		2px 1px 2px rgba(0, 0, 0, .14),
+		4px 2px 3px rgba(0, 0, 0, .12),
+		8px 4px 4px rgba(0, 0, 0, .09),
+		12px 7px 5px rgba(0, 0, 0, .05);
+  }
+
+.shadow-4pm-deep
+{
+  	-webkit-box-shadow:
+		2px 1px 1px rgba(0, 0, 0, .14),
+		4px 2px 3px rgba(0, 0, 0, .12),
+		8px 4px 5px rgba(0, 0, 0, .10),
+		15px 8px 10px rgba(0, 0, 0, .06),
+		18px 9px 17px rgba(0, 0, 0, .035),
+		25px 10px 16px rgba(0, 0, 0, .015);
+	-moz-box-shadow:
+		2px 1px 1px rgba(0, 0, 0, .14),
+		4px 2px 3px rgba(0, 0, 0, .12),
+		8px 4px 5px rgba(0, 0, 0, .10),
+		15px 8px 10px rgba(0, 0, 0, .06),
+		18px 9px 17px rgba(0, 0, 0, .035),
+		25px 10px 16px rgba(0, 0, 0, .015);
+	box-shadow:
+		2px 1px 1px rgba(0, 0, 0, .14),
+		4px 2px 3px rgba(0, 0, 0, .12),
+		8px 4px 5px rgba(0, 0, 0, .10),
+		15px 8px 10px rgba(0, 0, 0, .06),
+		18px 9px 17px rgba(0, 0, 0, .035),
+		25px 10px 16px rgba(0, 0, 0, .015);
+  }
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///// MOBILE STYLES ///////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* Small devices (small phones, 767px and below) */
+@media (max-width: 767px) {
+
+.dropdown-menu
+{ background-color: rgba(0,0,0,.04); }
+
+.dropdown-menu > li > a
+{ color: #ffffff; }
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus
+{ color: #a6c6ff; }
+
+.dropdown-menu > li.divider
+{ background-color: rgba(0,0,0,.06); }
+
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///// END CUSTOM STYLES ///////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/

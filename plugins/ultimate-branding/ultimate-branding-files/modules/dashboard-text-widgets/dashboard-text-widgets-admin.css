@@ -1,0 +1,12 @@
+.ub-widget img {
+    max-width: 100%;
+    height: auto;
+}
+.ub-widget:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* 689548-1534377513-ai */

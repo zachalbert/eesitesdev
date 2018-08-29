@@ -1,0 +1,53 @@
+/*--------------------------------------------------------------
+# Import Modules
+--------------------------------------------------------------*/
+/* @import '~normalize-scss/sass/normalize/import-now';*/
+/* For Bootstrap 4: @import '~bootstrap/scss/bootstrap'; */
+/* For Bootstrap 3.3.7, when not invoked from header.php */
+// @import '~bootstrap/dist/css/bootstrap.css';
+/*@import '~bootstrap/dist/css/bootstrap-theme.css';*/
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+// @import 'base/variables';
+// @import 'base/mixins';
+// @import 'base/animations';
+// @import 'base/body';
+// @import 'base/containers';
+// @import 'base/grid';
+// @import 'base/spacing';
+// @import 'base/wordpress';
+// @import 'base/forms';
+
+/*--------------------------------------------------------------
+# Partials
+--------------------------------------------------------------*/
+// @import 'partials/typography';
+// @import 'partials/buttons';
+// @import 'partials/links';
+// @import 'partials/colours';
+// @import 'partials/helpers';
+// @import 'partials/media';
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+// @import 'components/header';
+// @import 'components/sidebar';
+// @import 'components/footer';
+
+/*--------------------------------------------------------------
+# Pages
+--------------------------------------------------------------*/
+// @import 'pages/home';
+
+/*--------------------------------------------------------------
+# OG Premier Template Code. Deprecate eventually.
+--------------------------------------------------------------*/
+// This is the base stylesheet from the original template.
+@import 'og/public_style_template_2.css';
+
+// This is an example version of the injected code that happens from the editor.
+// Will be replaced in the future with customization options from the WP customizer.
+@import 'og/sample-theme.css';
