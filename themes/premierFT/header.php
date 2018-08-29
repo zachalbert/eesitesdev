@@ -46,16 +46,16 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header mobile-only">
 
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-				<i class="fa fa-bars" aria-hidden="true"><span class="sr-only">Toggle navigation</span></i>&nbsp;&nbsp;&nbsp;Menu
-			</button>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+						<i class="fa fa-bars" aria-hidden="true"><span class="sr-only">Toggle navigation</span></i>&nbsp;&nbsp;&nbsp;Menu
+					</button>
 
-											<i class="fa fa-shopping-cart default-cursor cart-icon mobile-only" title="Your cart is empty"></i>
+					<i class="fa fa-shopping-cart default-cursor cart-icon mobile-only" title="Your cart is empty"></i>
 
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="navbar-collapse desktop-only" id="navbar-collapse-1">
+				<div class="navbar-collapse desktop-only" id="navbar-collapse-1">
 
 						<nav id="site-navigation" class="main-navigation" role="navigation">
 							<?php
