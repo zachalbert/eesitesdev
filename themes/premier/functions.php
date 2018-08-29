@@ -27,10 +27,10 @@ function add_search_box_to_menu( $items, $args ) {
 
 add_filter( 'author_link', 'new_author_link', 10, 1 );
 
-function new_author_link( $link ) {         
+function new_author_link( $link ) {
     $link = home_url( '/' );
 
-    return $link;             
+    return $link;
 }
 
 add_filter( 'kdmfi_featured_images', function( $featured_images ) {
