@@ -82,8 +82,5 @@ Rails
 assets/dist
 
 # Wordpress stuff #
-themes/twentyfifteen
-themes/twentysixteen
-themes/twentyseventeen
 upgrade
-plugins/custompress
+uploads
