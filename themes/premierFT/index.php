@@ -18,7 +18,7 @@ get_header(); ?>
 
 	<div class="row align-stretch">
 
-		<div class="col-sm-8">
+		<div class="col-sm-12">
 
 			<div id="primary" class="content-area">
 				<main id="main" class="site-main" role="main">
@@ -54,9 +54,6 @@ get_header(); ?>
 
 		</div><!-- .col- -->
 
-		<div id="sidebar" class="col-sm-4">
-			<?php get_sidebar(); ?>
-		</div><!-- .col- -->
 
 	</div><!-- .row -->
 
